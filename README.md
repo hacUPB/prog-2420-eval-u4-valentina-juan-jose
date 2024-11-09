@@ -28,3 +28,13 @@ esta funcion abre el archivo en modo lectura, lee el contenido y lo guarda, reem
 
 -Función contar_caracteres_txt(nombre_archivo)
 ![alt text](<Imagen de WhatsApp 2024-11-08 a las 23.02.58_2deb0c41.jpg>)
+esta funcion abre el archivo en modo lectura, lee el contenido y lo guarda, calcula el numero total de caracteres con len(contenido), luego calcula el numero de caracteres sin los espacios utilizando replace para eliminar los espacios y luego contar la longitud del nuevo texto, finalmente imprime ambos valores. 
+
+-Función mostrar_primeras_filas_csv(nombre_archivo)
+![alt text](<Imagen de WhatsApp 2024-11-08 a las 23.06.29_4f0e32a8.jpg>)
+con esta funcion se pretende abrir el archivo csv en modo lectura, convertir las filas leidas en una lista, imprimir las primeras 15 filas del archivo csv.
+
+-Función calcular_estadisticas_csv(nombre_archivo, columna)
+![alt text](<Imagen de WhatsApp 2024-11-08 a las 23.06.51_05172eaa.jpg>)
+se busca abrir el archivo csv en modo lectura, leer la primera fila para obtener los nombres de las columnas, luego se extraen los datos de la columna especificada (usando el índice columna), asegurándose de que los datos sean números mediante el método isdigit(). También calcula y muestra las estadísticas básicas de la columna usando:Promedio: sum(columna_datos) / len(columna_datos),Mediana: Usando la función statistics.median().,Máximo: max(columna_datos)Mínimo: min(columna_datos)
+
