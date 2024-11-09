@@ -38,3 +38,10 @@ con esta funcion se pretende abrir el archivo csv en modo lectura, convertir las
 ![alt text](<Imagen de WhatsApp 2024-11-08 a las 23.06.51_05172eaa.jpg>)
 se busca abrir el archivo csv en modo lectura, leer la primera fila para obtener los nombres de las columnas, luego se extraen los datos de la columna especificada (usando el índice columna), asegurándose de que los datos sean números mediante el método isdigit(). También calcula y muestra las estadísticas básicas de la columna usando:Promedio: sum(columna_datos) / len(columna_datos),Mediana: Usando la función statistics.median().,Máximo: max(columna_datos)Mínimo: min(columna_datos)
 
+-Función graficar_columna_csv(nombre_archivo, columna)
+![alt text](<Imagen de WhatsApp 2024-11-08 a las 23.07.11_4ad4dac8.jpg>)
+con esta funcion se leen los datos de la columna seleccionada del archivo CSV, se filtran los valores numéricos de la columna y los guarda en una lista (columna_datos).Además, utiliza la librería matplotlib.pyplot para crear un gráfico de línea de los datos en esa columna, agrega un título y etiquetas a los ejes del gráfico y finalmente muestra el gráfico generado.
+
+-La función principal main() es para que llame a todas las funciones y las ejecute.Con esta se proporciona un  menú interactivo que permita al usuario elegir qué tipo de operación desea realizar. 
+![alt text](<Imagen de WhatsApp 2024-11-08 a las 23.07.49_2c065894.jpg>)
+
