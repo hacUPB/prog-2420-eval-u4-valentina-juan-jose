@@ -13,3 +13,18 @@ Se explicará las funciones y el paso a paso del código realizado.
 
 ![Imagen 1](<Imagen de WhatsApp 2024-11-08 a las 23.00.43_32dc031f.jpg>)
 
+2. Se empezó a escribir funciones 
+- función listar_archivos ()
+![alt text](<Imagen de WhatsApp 2024-11-08 a las 23.01.10_7a577406.jpg>)
+Esta se utilizó para que muestre un mensaje informativo sobre los archivos que el programa puede encontrar 
+
+-Función contar_palabras_txt(nombre_archivo)
+![alt text](<Imagen de WhatsApp 2024-11-08 a las 23.01.49_3d7dcc9a.jpg>)
+con esta funcion se busca abrir el archivo en modo lectura, leer todo el contenido del archivo, separar el contenido del archivo en palabras usando split() que divide el texto por espacios, e imprimir el numero total de palabras utilizando len(palabras)
+
+-Función reemplazar_palabra_txt(nombre_archivo, palabra_antigua, palabra_nueva)
+![alt text](<Imagen de WhatsApp 2024-11-08 a las 23.02.13_10f30878.jpg>)
+esta funcion abre el archivo en modo lectura, lee el contenido y lo guarda, reempalaza las palabras antiguas por las palabras nuevas usando replace() y luego reabre el archivo en modo escritura, guarda el contenido nuevo con los reemplazos y lo cierra
+
+-Función contar_caracteres_txt(nombre_archivo)
+![alt text](<Imagen de WhatsApp 2024-11-08 a las 23.02.58_2deb0c41.jpg>)
